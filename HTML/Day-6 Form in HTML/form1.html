@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form (Part-1)</title>
+    <style>
+        sup{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2>College Registration Form</h2>
+        Name <input type="text" name="user-name" placeholder="Enter fullname" autofocus> <br><br>
+
+        Mob <input type="tel" name="mobile-number" placeholder="+91-xxxxxxxxxx"> <br><br>
+        Email<sup>*</sup> <input type="email" name="user-email" placeholder="xyz@gmail.com" required> <br><br>
+
+        Password<sup>*</sup> <input type="password" name="password" placeholder="at least 8 characters" required> <br><br>
+
+        College Name <input type="text" value="AKTU University" name="college" disabled> <br><br>
+
+        Principle Name <input type="text" value="RD Sharma" name="principle-name" readonly> <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+    </form>
+</body>
+</html>

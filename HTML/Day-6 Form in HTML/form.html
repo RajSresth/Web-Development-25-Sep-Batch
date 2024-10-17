@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form (Part-1)</title>
+    <style>
+        input[type=number]{
+            appearance: textfield;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2>Registration Form</h2>
+
+        Name <input type="text"> <br><br>
+        Mob <input type="tel"> <br><br>
+        Email <input type="email"> <br><br>
+        Password <input type="password"> <br><br>
+
+        Mention Your Resume <br>
+        <input type="file" multiple accept=".pdf"> <br><br>
+
+        DOB <input type="date"> <br><br>
+        Time <input type="time"> <br><br>
+        DOB & DOBT  <input type="datetime-local"> <br><br>
+
+        select salary range <br>
+        <input type="range"> <br><br>
+        
+        Search Here <input type="search"> <br><br>
+
+        Github URL <input type="url"> <br><br>
+
+        Account Number <input type="number" min="0" max="10"><br><br>
+
+        Gender <br>
+        <input type="radio" name="gender" checked> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Others
+        <br><br>
+
+        Hobbies <br>
+        <input type="checkbox"> Playing Cricket
+        <input type="checkbox"> Tracking
+        <input type="checkbox"> Book Reading <br>
+        <input type="checkbox" checked> Dancing
+        <input type="checkbox"> Singing
+        <input type="checkbox"> Travelling <br>
+        <input type="checkbox" checked> Sleeping
+        <input type="checkbox" checked> Drinking Water
+        <input type="checkbox"> Cooking
+
+        <br><br>
+        <input type="submit" value="Create Your Account">
+        <input type="reset" value="Cancel">
+
+
+        <!-- <button type="submit">Submit</button>
+        <button type="reset">Cancel</button> -->
+    </form>
+</body>
+</html>
