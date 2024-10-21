@@ -1,0 +1,29 @@
+/* 1. Tagname selector or Element Selector
+div{
+    color: red;
+}*/
+
+/*2. Id Selector #
+#div2{
+    color:red
+}*/
+
+/* 3. class selector . 
+.flex{
+    color: purple;
+}*/
+
+/* 4. Universal Selector:-CSS Boiler Plate */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Grouping Selector , */
+.div-1,main{
+    color: salmon;
+}
+
+
+
