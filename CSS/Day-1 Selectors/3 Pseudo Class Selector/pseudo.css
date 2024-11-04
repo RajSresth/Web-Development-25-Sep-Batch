@@ -1,0 +1,19 @@
+/* Not visited state:- skyblue (default)*/
+a:link{
+    color: orange;
+}
+
+/* Active state:- red (default) */
+a:active{
+    color: turquoise;
+}
+
+/* visited state:- purple (default) */
+a:visited{
+    color: crimson;
+}
+
+/* :hover */
+a:hover{
+    text-decoration: none;
+}
