@@ -28,11 +28,46 @@ nav a{
 nav a:hover{
     text-decoration: none;
 }
-nav a:nth-child(1):hover+a{
+/* nav a:nth-child(1):hover+a{
    background-color: rgba(255,255,255,0.35);
    text-decoration: none;
 }
 nav a:nth-child(2):hover+a{
     background-color: rgba(255,255,255,0.35);
    text-decoration: none;
+} 
+
+nav a:first-child:hover~.last{
+    background-color: rgba(255,255,255,0.35);
+    text-decoration: none;
+}*/
+nav div{
+    display: flex;
+}
+nav div input{
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    /* outline: none; */
+}
+nav button{
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    outline: none;
+    background-color: rgb(12, 135, 196);
+    color: white;
+    font-weight: bold;
+}
+
+nav input:focus{
+    caret-color: red;
+    /* background-color: lightgoldenrodyellow; */
+    outline: teal solid 1px;
+}
+
+.outside-div input{
+    accent-color: red;
 }
