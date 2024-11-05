@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+
+div::before{
+    content: "Jai ";
+    color: tomato;
+}
+div{
+    color: white;
+}
+div::after{
+    content: " Ram..🙏";
+    color: green;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+

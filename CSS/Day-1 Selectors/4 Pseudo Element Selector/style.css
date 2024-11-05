@@ -1,0 +1,65 @@
+/* span{
+    display: inline-block;
+}
+
+span::first-letter{
+    color: red;
+    font-style: italic;
+    font-size: 25px;
+}
+
+p::first-line{
+   color: tomato; 
+   font-size: 20px;
+   font-style: italic;
+}
+
+*::selection{
+    background-color: green;
+    color: white;
+}
+
+main::selection{
+    background-color: deeppink;
+}
+
+article::selection{
+    background-color: deepskyblue;
+}
+
+span::selection{
+    background-color: tomato;
+} */
+
+ul>li::marker{
+    /* content: "# "; */
+    content: "\f061  ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+ol>li:nth-child(even)::marker{
+    content: "😍 ";
+}
+
+ol>li:nth-child(odd)::marker{
+    content: "😒 ";
+}
+
+ol>li:nth-last-child(2)::marker,
+ol>li:nth-last-child(4)::marker,
+ol>li:nth-last-child(6)::marker{
+    content: "🤢 ";
+}
+
+ol>li:last-child::marker{
+    content: "🤮 ";
+}
+
+
+ul>li:nth-child(odd)::marker{
+    content: "❤️";
+}
+ul>li:nth-child(even)::marker{
+    content: "🖤 ";
+}
