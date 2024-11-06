@@ -1,0 +1,25 @@
+/* div[class^="p-3"]{
+    color: red;
+}
+
+div[class$="div-2"]{
+    color: deepskyblue;
+}
+
+div[class*="table"]{
+    color: orange;
+} */
+
+/* p[class="flex"]{
+    color: crimson;
+} */
+
+
+
+p.flex{
+    color: crimson;
+}
+
+div#flex{
+    color: turquoise;
+}
