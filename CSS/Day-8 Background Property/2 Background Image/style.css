@@ -1,0 +1,32 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 450px;
+    border: 2px solid black;
+    background-image: linear-gradient(transparent,transparent),url("https://www.hindustantimes.com/ht-img/img/2023/06/25/1600x900/Kiara_Advani_Sidharth_Malhotra_1687665800087_1687665800259.jpg");
+    background-size:600px 450px ;
+    /* background-size:300px 250px ; */
+    background-repeat: no-repeat;
+    /* background-position: top 50px left 75px; */
+   
+}
+
+div:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.817),transparent,rgba(0, 0, 0, 0.84)),
+    url("https://www.hindustantimes.com/ht-img/img/2023/06/25/1600x900/Kiara_Advani_Sidharth_Malhotra_1687665800087_1687665800259.jpg");
+}

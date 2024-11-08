@@ -1,0 +1,56 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header>a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+section{
+    background-color: lightblue;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .wrapper{
+    width: 1000px;
+    height: 400px;
+    background-image: linear-gradient(to bottom,#12c2e9 25%,#c471ed 50%,#f64f59 80%);
+    padding: 4rem 3rem ;
+}
+
+section .wrapper h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section .wrapper p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+}
+
+
