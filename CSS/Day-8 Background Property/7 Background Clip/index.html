@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Clip Property</title>
+    <style>
+        *,*::after,*::before{
+            box-sizing: border-box;
+        }
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section{
+            width: 80%;
+            height: 70%;
+            /* background-color: rgba(255, 255, 255, 0.423); */
+            background-image: linear-gradient(45deg,#ffffffd1,#ffffff71);
+            padding: 50px 100px;
+        }
+        section h1{
+            font-size: 45px;
+            text-align: center;
+            margin-bottom: 30px;
+            background-image:linear-gradient(to left,orange,#dea6fa,cyan);
+            color: transparent;
+            background-clip: text;
+        }
+        section p{
+            font-size: 24px;
+            text-align: justify;
+            color: white;
+        }        
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Background Property</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facilis, exercitationem nemo, vel mollitia quibusdam quod eum excepturi et id consequuntur nesciunt. Quisquam accusamus illum dolore enim cumque repudiandae laboriosam odit unde sequi, ad quibusdam quam consequatur molestias tempora, voluptatibus, quas debitis nihil? Error nulla culpa ex fugiat recusandae iusto excepturi, fugit officiis officia, atque quos quod vitae et harum amet adipisci, labore nesciunt. Fugiat commodi velit perspiciatis excepturi error ratione provident dolor temporibus tenetur exercitationem laboriosam quaerat, placeat assumenda totam, rerum architecto? Et in maiores voluptas hic quibusdam voluptatem. Officia ad repellendus odit itaque, perferendis, tempore eius enim dolore ullam nesciunt assumenda vitae facere ipsa vero corporis placeat commodi architecto voluptatem alias ipsam deleniti aut doloribus non numquam. Repudiandae laborum quod temporibus eum? Illo voluptate aliquid veniam magni similique laborum tenetur error ullam, odio deleniti facilis sint ipsam temporibus repudiandae totam beatae expedita. Ipsa voluptate pariatur id veritatis similique.</p>
+    </section>
+</body>
+</html>
