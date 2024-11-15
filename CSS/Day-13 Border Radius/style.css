@@ -1,0 +1,33 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+section div{
+    margin:150px auto;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(160, 15, 160);
+    border-radius: 74% 26% 75% 25% / 53% 54% 46% 47% ;
+}
+
+section div img{
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+}
