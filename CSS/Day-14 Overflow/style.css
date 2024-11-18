@@ -1,0 +1,49 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    /* white-space: nowrap;
+    overflow: auto; */
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgb(207, 205, 205) ;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 0px -10px 1px 0px grey;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.card h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.card p{
+    text-align: justify;
+    font-size: 20px;
+}
