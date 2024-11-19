@@ -1,0 +1,39 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.card-container{
+    width: 100%;  /*1536px*/
+    height: auto;
+    background-color: rgb(74, 138, 160);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    gap:5rem 2.5rem;
+}
+
+.card{
+    max-width: 400px;
+    width: 80%; 
+    height: 400px;
+    background-color: rgb(244, 119, 144);
+    text-align: center;
+    font-size: 55px;
+    text-decoration: underline line-through white;
+}
+
+
+
