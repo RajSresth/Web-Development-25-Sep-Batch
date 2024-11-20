@@ -1,0 +1,58 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 1100px;
+    height: 500px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    gap: 20px 30px;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-1{
+    background-color: deeppink;
+}
+.card-2{
+    background-color: tan;
+}
+.card-3{
+    background-color: deepskyblue;
+}
+.card-4{
+    background-color: teal;
+}
+.card-5{
+    background-color: slateblue;
+}
+.card-6{
+    background-color: sandybrown;
+}
+.card-7{
+    background-color: violet;
+}
