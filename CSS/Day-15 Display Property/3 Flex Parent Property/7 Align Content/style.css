@@ -1,0 +1,40 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.flex{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: space-around; */
+    align-items: center;
+}
+.top{
+    width: 80%;
+    height: 40%;
+    background-color: tomato;
+}
+.bottom{
+    width: 80%;
+    height: 40%;
+    background-color: wheat;
+}
+
+.test{
+    width: 30%;
+    height: 30%;
+    background-color: red;
+    display: inline-flex;
+}
