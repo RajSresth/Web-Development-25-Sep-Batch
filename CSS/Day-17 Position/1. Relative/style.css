@@ -1,0 +1,52 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    /* place-content: center; */
+    place-items: center;
+}
+section.container{
+    width: 1000px;
+    height: 550px;
+    border: 2px solid black;
+    background-color: wheat;
+    display: flex;
+    position: relative;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.card1{
+    background-color: deepskyblue;
+}
+.card2{
+    background-color: tomato;
+}
+.card3{
+    background-color: cyan;
+}
+
+.card1{
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.card2{
+    width: 300px;
+    height: 300px;
+}
