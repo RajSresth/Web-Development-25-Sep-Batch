@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    /* height: 100vh; */
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 1px 10px gray;
+    /* position: fixed;
+    top: 0;
+    z-index: 100; */
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#header .center-container{
+    width: min(80%,1200px);
+    height: 100%;
+    /* background-color: tomato; */
+    margin: auto;
+    display: flex;
+}
+
+#header .left{
+    width: 800px;
+    height: 100%;
+    /* background-color: rgb(90, 129, 14); */
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+    padding-inline:25px ;
+}
+
+#header .left .logo{
+    color: black;
+    font-size: 30px;
+    font-weight: 520;
+}
+
+#header .left .search-container{
+    width: 720px;
+    height: 48px;
+    background-color: #dbdde8;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 7px;
+    overflow: hidden;
+}
+#header .search-container i{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+#header .search-container input{
+    width: 100%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+    background: none;
+}
+
+
+
+
+#header .right{
+    width: calc(100% - 800px);
+    height: 100%;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 40px;
+}
+
+#header .right .right-nav-icons{
+    display: inline-flex;
+    gap: 0px 30px;
+}
+
+#header .right-nav-icons i{
+    font-size: 25px;
+}
+#header .right button{
+    background-color: #ffbe00;
+    border: none;
+    outline: none;
+    padding: 7px 25px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+/* 
+ ! Hero Section Design
+*/
+
+#hero{
+    /* margin-top: 100px; 
+    height:calc(100% -100px)*/
+    width: 100%;
+    height: 100vh;
+    background:url('https://img10.hkrtcdn.com/36083/bnr_3608249_o.jpg') ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hero2{
+    width: 100%;
+    height: 100vh;
+    background:url('https://img8.hkrtcdn.com/36083/bnr_3608257_o.jpg') ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hero3{
+    width: 100%;
+    height: 100vh;
+    background:url('https://img8.hkrtcdn.com/36083/bnr_3608227_o.jpg') ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
