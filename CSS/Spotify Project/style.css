@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* 
+! Header Design
+ */
+
+ #header{
+    width: 100%;
+    height: 68px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px 15px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+ }
+
+ #header img{
+    width: 30px;
+    height: 30px;
+ }
+
+ #header .mid{
+    display: flex;
+    align-items: center;
+    gap: 0px 15px;
+ }
+#header .mid .home{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header .mid .home img{
+    width: 25px;
+    height: 25px;
+}
+ #header .mid .search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 474px;
+    height: 48px;
+    border-radius: 25px;
+    padding:0px 10px;
+    gap: 0 10px;
+    background-color: #1f1f1f;
+ }
+
+ #header .search-container input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-right: 1px solid #616060;
+    font-size: 15px;
+    background: none;
+    caret-color: white; 
+    color: white;   
+ }
+
+ #header .search-container .search-bar,
+ #header .search-container .cart{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #header .search-container .search-bar img,
+ #header .search-container .cart img{
+    width: 25px;
+    height: 25px;
+ }
+
+#header .right{
+    display: flex;
+}
+#header .right button{
+    padding: 13px 28px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+#header .right button:first-of-type{
+    background: none;
+    color: rgb(162, 160, 160);
+}
