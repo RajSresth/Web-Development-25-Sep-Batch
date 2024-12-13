@@ -22,11 +22,13 @@ console.log(`Biggest number among ${a}, ${b} and ${c} is: ${result}`);
  * TODO: Question2 write a js program to find leap year?
 * ! leap year= year%4;
 * ! centuary year= year % 400
- */
 
 const year=+prompt("Enter a year");
 
 const res= (year%100 !==0 && year%4 ===0) || (year%400===0)?`Leap Year ${year}`:` ${year} Not a leap Year`;
 
 console.log(res);
+*/
+
+
 
