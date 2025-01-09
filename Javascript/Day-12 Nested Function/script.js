@@ -29,3 +29,6 @@ function sum()
 }
 
 sum(10,20,30)
+
+
+console.log("I love my pyara bacha")
