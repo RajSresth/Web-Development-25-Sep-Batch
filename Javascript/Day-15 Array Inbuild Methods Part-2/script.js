@@ -50,3 +50,105 @@ console.log(y)
  */
 
 
+/**
+ * ! Reduce Method
+let arr=[10,20,30,40,50];
+let x=arr.reduceRight((acc,element,index,array)=>{
+
+    acc=acc+element;
+
+    return acc;
+},10)
+
+console.log(x)
+
+ */
+
+/**
+ * ! Reduce right method
+ 
+
+let arr=[10,20,30,40,50];
+
+let x=arr.reduceRight((acc,element)=>{
+            if(element >= 40)
+            {
+                acc.push(element);
+            }
+
+            return acc;
+},[]).sort((a,b)=>a-b);
+
+console.log(x)
+*/
+
+/**
+ * ! 2d Array reduce method
+let arr=[
+          [1,2,3],
+          [4,5,6],
+          [7,8,9]
+        ]
+
+let total=arr.reduce((acc1,row)=>{
+
+    acc1= acc1 + row.reduce((acc2,element)=>acc2+element,0)
+                                   
+    return acc1;
+},0)
+
+console.log(total);
+ */
+
+
+/**
+ * ! filter Object inside array
+ 
+
+let users=[
+    { name:"Tinku", age:24},
+    { name:"Dinga", age:17},
+    { name:"Simba", age:16},
+    { name:"Chombi", age:19}
+]
+
+  let eligibleUsers=users.filter(element=>{
+
+    if(element.age>=18)
+    {
+            return true;
+    }
+  })
+
+
+
+  let y=users.reduce((acc,element)=>{
+
+    if(element.age>=18)
+    {
+        acc.push(element.name);
+    }
+
+    return acc;
+  },[])
+
+  console.log(eligibleUsers)
+  console.log(y)
+*/
+
+/**
+ * ! Assignment Question
+
+  let products=[
+    { itemName:"Shirt", price:2400},
+    { itemName:"Shoes", price:1800},
+    { itemName:"Lipstick", price:3600},
+    { itemName:"Bag", price:1500},
+    { itemName:"watch", price:3000}
+]
+
+1. totalPrice:-12300;
+2. create one array of product having price less than 3000?
+ */
+
+
