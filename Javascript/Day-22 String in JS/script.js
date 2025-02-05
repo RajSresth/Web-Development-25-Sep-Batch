@@ -81,7 +81,7 @@ console.log(res)
 
 /**
  * ! join()
- */
+
 
 const str1="html,css,javascrpt,react"
 
@@ -93,3 +93,72 @@ console.log(arr)    // ["html","css","js","react"]
 
 const newString= arr.join(" ")
 console.log(newString)
+ */
+
+/**
+ * ! indexOf() and lastIndexOf()
+
+
+const str="Javascript is dynamic is language";
+
+const res1=str.indexOf("is");
+const res2=str.lastIndexOf("is")
+console.log(res1)
+console.log(res2)
+ */
+
+/**
+ * ! includes()
+
+const str="Javascript is dynamic is language";
+const res=str.includes("dynamic");
+console.log(res);
+ */
+
+/**
+ * ! startsWith() and endsWidth()
+
+
+const skill="Node Js"
+console.log(skill.startsWith("Node"))
+console.log(skill.endsWith("js"))
+ */
+
+/**
+ * ! padStart() and padEnd()
+
+
+const str="Hello";
+const res=str.padStart(6,".");
+console.log(res)
+
+
+
+const str2="Why";
+const res2=str2.padEnd(str2.length+1,"?")
+console.log(res2)
+ */ 
+
+/**
+ * ! question anagram
+*/
+
+
+function findAnagram(str1,str2)
+{
+    if(str1.length !== str2.length)
+    {
+       return `false : ${str1} !=== ${str2} length is not equal`
+    }
+
+    const s1= str1.toLowerCase().split("").sort().join("");
+    const s2= str2.toLowerCase().split("").sort().join("");
+   
+    return (s1 === s2 ? true : false);
+}
+
+const res=findAnagram("cat","TaC");
+console.log(res)
+
+
+
