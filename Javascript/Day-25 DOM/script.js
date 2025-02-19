@@ -48,7 +48,7 @@ console.log("Child Nodes",div.childNodes)
 
 /**
  * ! document.querySelectorAll()
- */
+
 
 const items1= document.getElementsByClassName("item")  //Html collection
 const items2 = document.querySelectorAll(".item") //Nodelist
@@ -58,4 +58,16 @@ items2[3].remove();
 
 console.log(items1)
 console.log(items2)
+
+
+
+
+const list= document.querySelectorAll(".item");
+
+list.forEach(element=>{
+    element.style.color="magenta";
+})
+ */
+
+/* CRUD = create, read, update and delete */
 
