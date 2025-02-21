@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in Js (Part-1)</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <button onclick="changeText()" >Click</button>
+    
+    <script>
+        function changeText()
+        {
+            const h1=document.querySelector("h1")
+            h1.textContent=`Namastey Duniya`;
+            h1.style.color="red";
+        }
+    </script>
+</body>
+</html>
