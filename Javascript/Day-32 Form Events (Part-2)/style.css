@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+    {
+    font-family: "Inter", serif;
+    font-family: "Poppins", serif;
+    }
+*/
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#hero{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 232, 232);
+}
+
+#hero .center{
+    width: 1400px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+#hero .center .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .left form{
+    width: 450px;
+    height:550px ;
+    background-color: white;
+    padding: 30px 35px 15px;
+    box-shadow: 0px 0px 10px 0.25px rgb(138, 136, 136);
+}
+
+#hero form .form-head{
+    /* background-color: lightgreen; */
+    margin-bottom: 15px;
+}
+
+#hero .form-head h2{
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+#hero .form-head p{
+    font-size: 17px;
+    letter-spacing: 1.25px;
+    color: rgb(144, 143, 143);
+}
+
+
+#hero .form-body{
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+}
+
+
+#hero .form-body input{
+    width: 100%;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0.25px rgb(138, 136, 136);
+}
+
+#hero form .form-foot{
+    margin-top: 15px;
+    /* background-color: lightgreen; */
+    padding: 20px 0px;
+}
+
+#hero .form-foot button{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+
+#btn1{
+    background-color: rgb(16, 118, 170);
+}
+#btn2{
+    background-color: rgb(126, 14, 14);
+}
+
+
+#hero .center .right{
+width: 50%;
+height: 100%;
+/* background-color: darkkhaki; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+table,tr,td,th{
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+tr{
+    height: 100px;
+}
+
+td,th{
+    padding: 15px;
+}
+table caption{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}

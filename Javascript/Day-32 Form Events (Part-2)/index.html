@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Events (Part-2)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="hero">
+      <div class="center">
+        <div class="left">
+          <form action="#" id="form">
+            <div class="form-head">
+              <h2>Sign up</h2>
+              <p>It only takes 3 sec.</p>
+            </div>
+            <div class="form-body">
+              <label for="inp1">
+                Name
+                <input type="text" id="inp1" placeholder="enter fullname" />
+              </label>
+              <label for="inp2">
+                Email
+                <input type="email" id="inp2" placeholder="xyz@gmail.com" />
+              </label>
+              <label for="inp3">
+                Password
+                <input
+                  type="password"
+                  id="inp3"
+                  placeholder="at least 8 characters"
+                />
+              </label>
+            </div>
+
+            <div class="form-foot">
+              <button type="submit" id="btn1">Create Your Account</button>
+              <button type="reset" id="btn2">Cancel</button>
+            </div>
+          </form>
+        </div>
+        <div class="right">
+          <table border="1">
+            <caption>
+              User Details
+            </caption>
+            <tr>
+              <th>S.no</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Password</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
