@@ -1,0 +1,89 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 22px;
+    width: 80%;
+    line-height: 35px;
+}
+
+.popup{
+    width: 450px;
+    height: 150px;
+    background-color: rgb(254, 254, 253);
+    position: fixed;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgb(154, 153, 153);
+}
+
+.popup .top{
+    height: 65%;
+    /* background-color: turquoise; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup .top h2{
+    font-family: arial;
+    width: 85%;
+    font-size: 30px;
+    text-align: center;
+}
+.popup .bottom{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0px 1rem;
+}
+
+.popup .bottom button{
+    width: 30%;
+    padding: 8px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btn1{
+    background-color: rgb(24, 134, 181);
+}
+.btn2{
+    background-color: rgb(118, 9, 42);
+}
+
+.overlay{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    background-color: rgba(235, 233, 233, 0.441);
+    pointer-events: none;
+}
