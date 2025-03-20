@@ -1,12 +1,10 @@
-console.log("App js file")
+console.log("Start of App js File");
 
-const greet=()=>{
-    console.log("Good Morning Dev..")
-}
+// const obj= require("./math.js")
 
-const meme="Smjh rhe ho";
+let {key1,sum:add}= require("./math.js")
 
-module.exports={
-    greet:greet,
-    meme:meme
-}
+console.log(key1)
+console.log(add(3,2))
+
+console.log("End of App js File")
